@@ -7,8 +7,9 @@ st.set_page_config(page_title="LinkedIn Job Trends", layout="wide")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\\Users\\aruna\\PycharmProjects\\linkedinjobtrend\\data\\cleaned_jobs.csv")
+    df = pd.read_csv("data/cleaned_jobs.csv")
     return df
+
 
 df = load_data()
 
