@@ -36,9 +36,11 @@ It shows insights on job types, locations, skills, and internships — built usi
     streamlit run src/app.py
 ---
 ## 📊 Dataset
-
-The app uses a cleaned LinkedIn job dataset (data/cleaned_jobs.csv) containing:
-Title, Company, Location, Keyword, Job Type, is_internship, Skills, Link
+   The app uses a cleaned LinkedIn job dataset (data/cleaned_jobs.csv) containing:
+   Title, Company, Location, Keyword, Job Type, is_internship, Skills, Link
+---
+## App Link
+   https://linkedinjobtrends.streamlit.app/
 ---
 ## 🧩 Future Scope & Notes
 
